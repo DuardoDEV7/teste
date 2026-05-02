@@ -106,7 +106,7 @@ with c4:
         labels=dados_cafe.index, 
         autopct='%1.1f%%', 
         colors=['#c2c2f0','#ffb3e6','#ffcc99'],
-        wedgeprops=dict(width=0.3) # Outra forma de fazer o "furo" da rosca
+        wedgeprops=dict(width=0.3)
     )
     ax.axis('equal')
     st.pyplot(fig)
